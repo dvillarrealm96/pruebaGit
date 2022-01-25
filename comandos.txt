@@ -1,4 +1,11 @@
+-----------INICIAR REPO--------------------------------------------------------------
 git init // crea repositorio;
 git config user.name dvillarrealm96 // agrega nuestra identidad;
 git config user.email dieeegovillarreal@gmail.com // agrega nuestro email;
 git remote add origin 'URL' // conecta nuestro repo local con el remoto en github;
+
+-----------AGREGA ARCHIVOS AL REPO----------------------------------------------------
+git add 'archivos a cargar'// agrega los archivos seleccionados al repo; (si agregamos un . se agregan todos los archivos modifciados).
+git status// devuelve el estatus de tus archivos;
+git push origin master // envía los cambios al repositorio remoto;
+git pull origin master // jala los cambios que hay en github y los pone en el local;
