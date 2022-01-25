@@ -1,0 +1,4 @@
+git init // crea repositorio;
+git config user.name dvillarrealm96 // agrega nuestra identidad;
+git config user.email dieeegovillarreal@gmail.com // agrega nuestro email;
+git remote add origin 'URL' // conecta nuestro repo local con el remoto en github;
